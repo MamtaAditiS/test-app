@@ -1,0 +1,11 @@
+
+.sidebar-container {
+    bottom: 0;
+    width: 20% !important;
+    overflow: hidden;
+    position: absolute;
+}
+
+.line-item {
+    color : #58595B;
+}
