@@ -1,8 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from '../containers/App'
-
-import { configure, shallow } from 'enzyme';
+import { shallow } from 'enzyme';
 
 
 let wrapped;
@@ -11,7 +9,6 @@ beforeEach(() => {
     wrapped = shallow(<App/>);
 });
 
-console.log(wrapped , "wrapped")
 
 describe('Running test cases for App' , () => {
   
